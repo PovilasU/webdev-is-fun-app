@@ -3,56 +3,16 @@ import React from "react";
 export default About => {
   return (
     <div>
-      <h1>About Page</h1>
-      <h1>Web Dev Is Fun React App</h1>
-      <p>This is React App</p>
-      <h2>Projects</h2>
+      <p>During this project I will explore ReactJS</p>
+      <p>Goal of this project is to learn much as possible</p>
+      <p>
+        I also will try to optimize website loading time and SEO. Website
+        Accesibility is also important
+      </p>
+      <p>Iwill use various libraries and techniques to teach myself ReactJS</p>
+      <h4>Here I wrote some steps how I started develop this app</h4>
+
       <ul>
-        <li>
-          <a
-            href="https://iseewavingwaterthroughmywindown.s3.amazonaws.com/index.html"
-            target="_blank"
-          >
-            I see waving water through the window
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://povilas-angularjs-calc.s3.amazonaws.com/index.html"
-            target="_blank"
-          >
-            Electricity price calc demo (Angular js 2019)
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://povilas.s3-eu-west-1.amazonaws.com/index.html"
-            target="_blank"
-          >
-            Crypto currency website (03 2019)
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://productmanangercrudr-20190405020141-hostingbucket-linux.s3.amazonaws.com/index.html"
-            target="_blank"
-          >
-            Products Manager Demo (CRUD app, ReactJs, LocalStorage 2019)
-          </a>
-        </li>
-        <ul>
-          <li>future projects todo</li>
-          <li>
-            <a href="" target="_blank">
-              travel Gallery
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              blog
-            </a>
-          </li>
-        </ul>
         <li>
           <a href="#"> Steps: How this app page was developed </a>
           <ol>

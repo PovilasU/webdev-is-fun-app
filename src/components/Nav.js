@@ -23,6 +23,12 @@ function Nav() {
         <Link style={navStyle} to="/gallery">
           <li>Gallery</li>
         </Link>
+        <Link style={navStyle} to="/projects">
+          <li>Projects</li>
+        </Link>
+        <Link style={navStyle} to="/reactstrap">
+          <li>Reactstrap</li>
+        </Link>
       </ul>
     </nav>
   );
