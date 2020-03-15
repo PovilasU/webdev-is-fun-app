@@ -14,7 +14,7 @@ import Neptune from "../img/planets/neptune.jpg";
 import Ceres from "../img/planets/Ceres_dwarf_planet.jpg";
 import Pluto from "../img/planets/pluto.jpg";
 import Haumea from "../img/planets/haumea_dwarf_planet.jpg";
-import Makemake from "../img/planets/Makemake_dwarf_planet.jpg";
+import Makemake from "../img/planets/makemake_dwarf_planet.jpg";
 import Eris from "../img/planets/eris_dwarf_planet.jpeg";
 
 export default Gallery => {
