@@ -15,6 +15,11 @@ function Nav() {
         <Link style={navStyle} to="/about">
           <li>About</li>
         </Link>
+        <li>
+          <a href="https://webdev-is-fun.blogspot.com/" target="_balnk">
+            Blog
+          </a>
+        </li>
         <Link style={navStyle} to="/gallery">
           <li>Gallery</li>
         </Link>
