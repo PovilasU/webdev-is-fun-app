@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         {/* <img src={pic} alt="mypic" /> */}
-        <h1>Web Dev Is Fun React App test</h1>
+        <h1>Web Dev Is Fun React App (Development Environment)</h1>
         <p>This is React App</p>
         <h2>Projects</h2>
         <ul>
