@@ -242,6 +242,38 @@ export default Blog => {
                   <code>npm install --save --react-router</code>
                 </li>
                 <li>Created Header component with navigation bar</li>
+                <li>
+                  <b>15/03/2020</b>
+                </li>
+                <li>
+                  08:56 15/03/2020 Yesterday (14/03/2020) while working on
+                  projcet webdevisfun I was testing localy but not testing on
+                  AWS amplify. Testing on my computer was ok everything was
+                  working as expected but... Moment of truth struct me :) I was
+                  not deploying in AWS amplify, it failed .... And this is an
+                  issues which I have to fix now. At first I just created second
+                  version of project from scratch and redeploeyed to make sure
+                  that it works. But then I added configurations and source code
+                  from old project eventually same story happened it failed.
+                  Lesson learded: 1.I should have development and production
+                  deployments on AWS amplify not just localy 2. Offcourse use
+                  dev branch not master as I did it so far. 3. Instead of
+                  creating new projects if something does not work, I need to
+                  learn how to revert changes on git, so far I was just
+                  submiting changes and expecting that everything will work :)
+                  4. Local environment it is not same as AWS amplify environment
+                  and if it works localy it does not garanty that it will works
+                  when it is deployed 5. This projects growing and it becomes
+                  more hard to maintain. 6. My about page(or blog) is also
+                  expandint since I am writing these comments and it is hard to
+                  maintain because I am writing inside source code, I shuold use
+                  prob real blog like google blogs or implement my own blog for
+                  this purpose.
+                </li>
+                <li>
+                  Finally fixed. Created Production and development environments
+                  on AWS simplifier (19:17 15/03/2020)
+                </li>
               </li>
             </li>
           </ol>
