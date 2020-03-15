@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-
-// import pic from "./day2_audit1.JPG";
+import Header from "./Header.js";
 
 class App extends Component {
   render() {
     return (
       <div>
-        {/* <img src={pic} alt="mypic" /> */}
+        <Header></Header>
         <h1>Web Dev Is Fun React App (Development Environment)</h1>
         <p>This is React App</p>
         <h2>Projects</h2>
