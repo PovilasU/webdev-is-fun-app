@@ -8,6 +8,7 @@ class App extends Component {
         <Header></Header>
         <h1>Web Dev Is Fun React App (Development Environment)</h1>
         <p>aded dist to git ignore</p>
+        <p>another test</p>
         <p>This is React App</p>
         <h2>Projects</h2>
         <ul>
