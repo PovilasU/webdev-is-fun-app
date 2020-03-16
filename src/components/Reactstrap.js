@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "reactstrap";
 import { Alert } from "reactstrap";
 import { Badge } from "reactstrap";
+import { Container } from "reactstrap";
+import {
+  Nav,
+  NavItem,
+  Dropdown,
+  DropdownItem,
+  DropdownToggle,
+  DropdownMenu,
+  NavLink
+} from "reactstrap";
 
-function Reactstrap() {
+const Reactstrap = props => {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggle = () => setDropdownOpen(!dropdownOpen);
   return (
     <div>
       <h1>Reactstrap</h1>
@@ -43,7 +56,41 @@ function Reactstrap() {
           Heading <Badge color="secondary">New</Badge>
         </h6>
       </div>
+
+      <div>
+        <h3>Tabs</h3>
+        <Nav tabs>
+          <NavItem>
+            <NavLink href="#" active>
+              Link
+            </NavLink>
+          </NavItem>
+          <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
+            <DropdownToggle nav caret>
+              Dropdown
+            </DropdownToggle>
+            <DropdownMenu>
+              <DropdownItem header>Header</DropdownItem>
+              <DropdownItem disabled>Action</DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
+              <DropdownItem divider />
+              <DropdownItem>Another Action</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+          <NavItem>
+            <NavLink href="#">Link</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#">Another Link</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink disabled href="#">
+              Disabled Link
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </div>
     </div>
   );
-}
+};
 export default Reactstrap;
