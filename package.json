@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot --config webpack.dev.js --history-api-fallback",
+    "start-prod": "webpack-dev-server --mode development --open --hot --config webpack.prod.js --history-api-fallback",
     "build": "webpack --mode production --config webpack.prod.js"
   },
   "repository": {
