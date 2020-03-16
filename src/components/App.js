@@ -6,6 +6,7 @@ import About from "./About.js";
 import Gallery from "./Gallery.js";
 import Projects from "./Projects.js";
 import Reactstrap from "./Reactstrap.js";
+import Material from "./Material.js";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/gallery" component={Gallery} />
             <Route path="/projects" component={Projects} />
             <Route path="/reactstrap" component={Reactstrap} />
+            <Route path="/material" component={Material} />
           </Switch>
         </div>
       </Router>

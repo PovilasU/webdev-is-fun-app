@@ -57,6 +57,11 @@ const NavigationBar = props => {
             <Link to="/reactstrap">Reactstrap</Link>
           </NavLink>
         </NavItem>
+        <NavItem>
+          <NavLink>
+            <Link to="/material">MaterialUI</Link>
+          </NavLink>
+        </NavItem>
 
         <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
           <DropdownToggle nav caret>
